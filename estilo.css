@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(160, 96, 243, 0.247)
+}
+
+#nome{
+    color:rgb(69, 87, 247);
+    text-align: center;
+}
+#biografia{
+    font-size: 20px;
+    text-align:justify;
+}
+
+#hobbies{
+    line-height: 2;
+}
+
+#piano{
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    text-align: center;
+}
+
+td img{
+    object-fit: cover;
+    display: block;
+}
+
+tr:hover{
+    background-color: rgba(160, 96, 243, 0.596);
+    font-weight: bold;
+}
+
+#link:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgba(114, 230, 220, 0.596);
+}
+
+#mensagem{
+    margin-top: 10px;
+}
